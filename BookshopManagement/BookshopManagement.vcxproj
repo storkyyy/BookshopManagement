@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Books.cpp" />
     <ClCompile Include="BookshopManagement.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="Purchases.cpp" />
+    <ClCompile Include="Sales.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Books.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="Purchases.h" />
+    <ClInclude Include="Sales.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
