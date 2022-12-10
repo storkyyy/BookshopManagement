@@ -18,36 +18,36 @@
     <ClCompile Include="BookshopManagement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Employee.cpp">
+    <ClCompile Include="BookshopManagement\source\Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Books.cpp">
+    <ClCompile Include="BookshopManagement\source\Books.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Customer.cpp">
+    <ClCompile Include="BookshopManagement\source\Customer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Purchases.cpp">
+    <ClCompile Include="BookshopManagement\source\Purchases.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sales.cpp">
+    <ClCompile Include="BookshopManagement\source\Sales.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Employee.h">
+    <ClInclude Include="BookshopManagement\headers\Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Books.h">
+    <ClInclude Include="BookshopManagement\headers\Books.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Customer.h">
+    <ClInclude Include="BookshopManagement\headers\Customer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Purchases.h">
+    <ClInclude Include="BookshopManagement\headers\Purchases.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sales.h">
+    <ClInclude Include="BookshopManagement\headers\Sales.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

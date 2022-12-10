@@ -127,19 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Books.cpp" />
+    <ClCompile Include="BookshopManagement\source\Books.cpp" />
     <ClCompile Include="BookshopManagement.cpp" />
-    <ClCompile Include="Customer.cpp" />
-    <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="Purchases.cpp" />
-    <ClCompile Include="Sales.cpp" />
+    <ClCompile Include="BookshopManagement\source\Customer.cpp" />
+    <ClCompile Include="BookshopManagement\source\Employee.cpp" />
+    <ClCompile Include="BookshopManagement\source\Purchases.cpp" />
+    <ClCompile Include="BookshopManagement\source\Sales.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Books.h" />
-    <ClInclude Include="Customer.h" />
-    <ClInclude Include="Employee.h" />
-    <ClInclude Include="Purchases.h" />
-    <ClInclude Include="Sales.h" />
+    <ClInclude Include="BookshopManagement\headers\Books.h" />
+    <ClInclude Include="BookshopManagement\headers\Customer.h" />
+    <ClInclude Include="BookshopManagement\headers\Employee.h" />
+    <ClInclude Include="BookshopManagement\headers\Purchases.h" />
+    <ClInclude Include="BookshopManagement\headers\Sales.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
