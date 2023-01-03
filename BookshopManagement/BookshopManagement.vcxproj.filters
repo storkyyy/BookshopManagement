@@ -18,19 +18,28 @@
     <ClCompile Include="BookshopManagement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BookshopManagement\source\Employee.cpp">
+    <ClCompile Include="BookshopManagement\source\cpp\Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BookshopManagement\source\Books.cpp">
+    <ClCompile Include="BookshopManagement\source\cpp\Books.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BookshopManagement\source\Customer.cpp">
+    <ClCompile Include="BookshopManagement\source\cpp\Customer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BookshopManagement\source\Purchases.cpp">
+    <ClCompile Include="BookshopManagement\source\cpp\Purchases.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BookshopManagement\source\Sales.cpp">
+    <ClCompile Include="BookshopManagement\source\cpp\Sales.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BookshopManagement\source\cpp\Book.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BookshopManagement\source\cpp\Author.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BookshopManagement\tests\BookTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,6 +57,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BookshopManagement\headers\Sales.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookshopManagement\headers\Book.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookshopManagement\headers\global\Genre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookshopManagement\headers\global\SubGenre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookshopManagement\headers\Author.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookshopManagement\headers\global\Condition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

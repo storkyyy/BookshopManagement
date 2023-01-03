@@ -127,19 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BookshopManagement\source\Books.cpp" />
+    <ClCompile Include="BookshopManagement\source\cpp\Author.cpp" />
+    <ClCompile Include="BookshopManagement\source\cpp\Book.cpp" />
+    <ClCompile Include="BookshopManagement\source\cpp\Books.cpp" />
     <ClCompile Include="BookshopManagement.cpp" />
-    <ClCompile Include="BookshopManagement\source\Customer.cpp" />
-    <ClCompile Include="BookshopManagement\source\Employee.cpp" />
-    <ClCompile Include="BookshopManagement\source\Purchases.cpp" />
-    <ClCompile Include="BookshopManagement\source\Sales.cpp" />
+    <ClCompile Include="BookshopManagement\source\cpp\Customer.cpp" />
+    <ClCompile Include="BookshopManagement\source\cpp\Employee.cpp" />
+    <ClCompile Include="BookshopManagement\source\cpp\Purchases.cpp" />
+    <ClCompile Include="BookshopManagement\source\cpp\Sales.cpp" />
+    <ClCompile Include="BookshopManagement\tests\BookTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BookshopManagement\headers\Author.h" />
+    <ClInclude Include="BookshopManagement\headers\Book.h" />
     <ClInclude Include="BookshopManagement\headers\Books.h" />
     <ClInclude Include="BookshopManagement\headers\Customer.h" />
     <ClInclude Include="BookshopManagement\headers\Employee.h" />
+    <ClInclude Include="BookshopManagement\headers\global\Condition.h" />
+    <ClInclude Include="BookshopManagement\headers\global\SubGenre.h" />
     <ClInclude Include="BookshopManagement\headers\Purchases.h" />
     <ClInclude Include="BookshopManagement\headers\Sales.h" />
+    <ClInclude Include="BookshopManagement\headers\global\Genre.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
