@@ -23,4 +23,5 @@ enum class SubGenre : unsigned char
 	Science = 12,
 	Cookbook = 13,
 
+	Unknown = 99
 };

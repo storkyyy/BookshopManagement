@@ -7,7 +7,7 @@
  * @param author
  * @param condition: condition is New unless otherwise specificed
 */
-Book::Book(const Author& author, const std::string& title, const Genre& genre, const SubGenre subGenre = SubGenre::Unknown, const Condition condition = Condition::New)
+Book::Book(const Author& author, const std::string& title, const Genre& genre, const SubGenre subGenre, const Condition condition)
 	: m_Author(author)
 	, m_Title(title)
 	, m_Genre(genre)
@@ -19,7 +19,7 @@ Book::Book(const Author& author, const std::string& title, const Genre& genre, c
  * @brief Get Author for a specified book
  * @return m_Author
 */
-Author Book::GetAuthor()
+const Author Book::GetAuthor()
 {
 	return m_Author;
 }
@@ -100,21 +100,22 @@ const std::string Book::GetGenre()
 }
 
 /**
+ * @brief Return avg rating of all ratings for book
+ * @return rating
+*/
+const double Book::GetRating()
+{
+	// get avg rating for book
+	return -1;
+};
+
+/**
  * @brief Set the condition of a book
  * @param book: pointer to the book being updated
 */
 void Book::SetCondition()
 {
 	// Update condition of book with m_Id in database
-}
-
-/**
- * @brief Add the rating of a particular book, this will pull all ratings for this book
-	then use the newly passed rating to calculate new overall rating and set rating for book
-*/
-void Book::AddRating(const int rating)
-{
-	// Add rating of book with m_Id in database
 }
 
 /**
@@ -125,6 +126,15 @@ void Book::SetCopies(const int copies)
 {
 	// Look for book with a book with this author/title/condition and ++ copies else
 	// print not found 
+}
+
+/**
+ * @brief Add the rating of a particular book, this will pull all ratings for this book
+	then use the newly passed rating to calculate new overall rating and set rating for book
+*/
+void Book::AddRating(const int rating)
+{
+	// Add rating of book with m_Id in database
 }
 
 /**
