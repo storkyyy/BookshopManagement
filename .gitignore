@@ -363,6 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
 *.dll
